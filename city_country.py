@@ -1,11 +1,11 @@
 # Going to print out cities and the country they are in
 
-# First, a dictionary of cities and countries
-ccs = {'Paris': 'France', 'New York': 'USA', 'Munich': 'Germany'}
-
-# Then we write our function
 
 def city_country(city, country):
-    print(f"\nWe have {city} in the country of {country}!")
+    print("\n-------------------------------------------")
+    print(f"\nWe have {city.title()} in the country of {country.title()}!")
+    print("\n-------------------------------------------")
 
-city_country(ccs.items[0], ccs.values[0])
+city_country("Munich", "Germany")
+city_country("New York", "USA")
+city_country("paris", "france")
